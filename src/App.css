@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width:calc(100vw - 300px);
+  background: #cdcdcd;
+  margin: 200px auto;
+}
+.resultInput {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  font-size:45px;
+}
+.calcGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btnElement {
+  flex: 1 25%;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.mainApp {
+  width: 100vw;
+  height: 100vh;
+}
+/*.btnOperator {*/
+/*  background-color: chocolate;*/
+/*}*/
+
